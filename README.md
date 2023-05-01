@@ -1,35 +1,27 @@
-# arvore-genealogica
+Tema:
+ - Grafos1
 
-This template should help get you started developing with Vue 3 in Vite.
+# Árvore Genealógica
 
-## Recommended IDE Setup
+## Alunos
+|Matrícula | Aluno |
+| -- | -- |
+| 200018060  |  Gabriel Ferreira da Silva |
+| 200044567  |  Weslley Alves de Barros |
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Sobre 
+Descreva os objetivos do seu projeto e como ele funciona. 
 
-## Customize configuration
+## Screenshots
+Adicione 3 ou mais screenshots do projeto em funcionamento.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Instalação 
+**Linguagem**: xxxxxx<br>
+**Framework**: (caso exista)<br>
+Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
-## Project Setup
+## Uso 
+Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## Outros 
+Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.

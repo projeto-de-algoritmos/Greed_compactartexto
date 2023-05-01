@@ -13,6 +13,7 @@
 
 body{
   min-height: 0 !important;
+  background: #012e37 !important;
 }
 #app {
     grid-template-columns: 1fr !important;

@@ -1,27 +1,42 @@
 Tema:
- - Grafos1
+
+- Grafos1
 
 # Árvore Genealógica
 
-## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| 200018060  |  Gabriel Ferreira da Silva |
-| 200044567  |  Weslley Alves de Barros |
+<img src="src/assets/logo.png" alt="Logo do Projeto" />
 
-## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+## Alunos
+
+| Matrícula | Aluno                     |
+| ---------- | ------------------------- |
+| 200018060  | Gabriel Ferreira da Silva |
+| 200044567  | Weslley Alves de Barros   |
+
+## Sobre
+
+O projeto consiste na utilização de grafos para guarda a árvore genealógica de uma família
 
 ## Screenshots
+
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
-## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
+## Instalação
+
+**Linguagem**: Javascript `<br>`
+**Framework**: VueJS(caso exista)`<br>`
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
-## Uso 
+## Uso
+
 Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
-## Outros 
+Passo a passo para rodar o projeto
+
+`npm i`
+
+`npm run dev`
+
+## Outros
+
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.

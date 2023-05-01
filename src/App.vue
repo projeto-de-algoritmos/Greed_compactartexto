@@ -17,6 +17,7 @@ body{
 #app {
     grid-template-columns: 1fr !important;
     min-width: 100% !important;
+    background-color: #012e37;
 }
 .vue-select{
   margin: 10px !important;

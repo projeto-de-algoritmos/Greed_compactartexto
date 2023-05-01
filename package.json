@@ -10,8 +10,11 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@chenfengyuan/vue-number-input": "^2.0.1",
     "pinia": "^2.0.32",
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "vue-next-select": "^2.10.5",
+    "vue3-tags-input": "^1.0.7"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",

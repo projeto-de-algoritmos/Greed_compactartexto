@@ -4,6 +4,20 @@
 </script>
 
 <style>
+
+#app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 !important;
+}
+
+body{
+  min-height: 0 !important;
+}
+#app {
+    grid-template-columns: 1fr !important;
+    min-width: 100% !important;
+}
 .vue-select{
   margin: 10px !important;
 }
@@ -13,10 +27,12 @@
   .vue-select-header{
       height: 40px !important;
       background: #ffffff !important;
+      display: flex;
+      align-items: center;
       
     }
 </style>
 <template>
-  <Header msg="Árvore Genealógica" />
-  <Body />
+    <Header msg="Árvore Genealógica" />
+    <Body />
 </template>

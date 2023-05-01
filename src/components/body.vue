@@ -1,6 +1,6 @@
 <template>
   <div class="line">
-  <p>Quantidade de famílias diferentes: {{ resultado }}</p>
+  <h2>Quantidade de famílias diferentes: {{ resultado }}</h2>
   </div>
 
   <div class="line">
@@ -11,8 +11,8 @@
     </div>
     
     <div class="block">
-      <p>quantidade de relações: {{ relacoes }}</p>
-      <vue-number-input v-model="relacoes" :min="1" :max="16" inline controls/> 
+      <p>Quantidade de relações: {{ relacoes }}</p>
+      <vue-number-input v-model="relacoes" :min="0" :max="16" inline controls/> 
     </div>
   </div>
 
@@ -36,7 +36,7 @@
       <vue-select v-model="nome1" :options="nomes" placeholder="Nome"> </vue-select>
       <vue-select v-model="nome2" :options="parentesco" placeholder="Parentesco"> </vue-select>
       <vue-select v-model="nome3" :options="nomes" placeholder="Nome"> </vue-select>
-      <button v-on:click="submit">Submit</button>
+      <button v-on:click="submit">Enviar</button>
     </form>
   </div>
 
@@ -50,6 +50,7 @@
     justify-content: center;
     margin: 20px;
     flex-direction: row;
+    color: #FFF;
   }
 
   form{

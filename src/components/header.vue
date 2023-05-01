@@ -22,7 +22,7 @@ header {
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: #FFF;
   transition: 0.4s;
   font-size: 1.5rem;
   margin-top: 60px;

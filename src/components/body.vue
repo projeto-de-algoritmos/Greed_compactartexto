@@ -18,10 +18,11 @@
 
   <div class="line">
 
-      <vue3-tags-input :tags="nomes"
-                  :validate="customValidate"
+      <vue3-tags-input v-model:tags="nomes"
+                   @on-select="handleSelectedTag"
+                   @on-tags-changed="handleChangeTag"
                    placeholder="Digite os nomes"
-                   @on-tags-changed="handleChangeTag"/>
+                   />
   </div>
 
   <div class="line">
@@ -32,7 +33,7 @@
   <div class="line">
     
     <form v-on:submit.prevent="getAllData" id="frm">
-      <vue-select v-model="nome1" :options="nomes" @change="onChange($event)" placeholder="Nome"> </vue-select>
+      <vue-select v-model="nome1" :options="nomes" placeholder="Nome"> </vue-select>
       <vue-select v-model="nome2" :options="parentesco" placeholder="Parentesco"> </vue-select>
       <vue-select v-model="nome3" :options="nomes" placeholder="Nome"> </vue-select>
       <button v-on:click="submit">Submit</button>
@@ -105,19 +106,19 @@ export default {
                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
       parentesco: ["filho", "irmao", "mae", "marido", "pai", "tio"],
-      nomes: ["Pedro", "Maria", "Josias", "Mangojata", 
-              "Samuel", "Paulo", "Marcos", "Ivane"
-            ] 
+      nomes: ["Pedro", "Maria", "Josias", "Mangojata",  "Samuel", "Paulo", "Marcos", "Ivane"] 
+            
     };
   },
   methods: {
+    handleSelectedTag(tag) {
+      this.nomes.push(tag);
+    },
     handleChangeTag(tags) {
-      if(tags.length > this.pessoas){
-        alert(`Você só pode adicionar ${this.pessoas} pessoas`);
-        tags.pop();
-      }      
+      this.nomes = tags;
     },
     submit : function(){
+          console.log(this.nomes);
           if(this.contador >= this.relacoes){
             alert("Você já adicionou todas as relações");
           }else if(!this.nome1 || !this.nome2 || !this.nome3){

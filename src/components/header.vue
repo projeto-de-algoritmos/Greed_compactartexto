@@ -31,7 +31,7 @@ a,
 
 @media (hover: hover) {
   a:hover {
-    color: hsla(160, 100%, 37%, 0.7);
+    color: hsla(195, 85%, 26%, 0.7);
   }
 }
 </style>

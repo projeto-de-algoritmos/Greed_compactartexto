@@ -13,18 +13,19 @@ Tema:
 | 200018060  | Gabriel Ferreira da Silva |
 | 200044567  | Weslley Alves de Barros   |
 
+Dupla 06
+
 ## Sobre
 
-O projeto consiste na utilização de grafos para guarda a árvore genealógica de uma família
+O projeto consiste na utilização de grafos para guardar a árvore genealógica de uma família, utilizando um algoritmo de grafos DFS, tal família contendo 4 pessoas ou mais, dessa maneira mostrando a suas relações.
 
 ## Screenshots
 
-Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação
 
-**Linguagem**: Javascript `<br>`
-**Framework**: VueJS(caso exista)`<br>`
+**Linguagem**: Javascript 
+**Framework**: VueJS
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
 ## Uso

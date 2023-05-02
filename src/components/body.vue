@@ -7,7 +7,7 @@
 
     <div class="block">
       <p>Quantidade de pessoas: {{ pessoas }}</p>
-      <vue-number-input v-model="pessoas" :min="1" :max="16" inline controls/>
+      <vue-number-input v-model="pessoas" :min="4" :max="16" inline controls/>
     </div>
     
     <div class="block">
@@ -74,7 +74,24 @@
     margin: 10px;
   }
 
+  button{
+    background-color: white;
+    width: 150px;
+    height: 40px;
+  }
+
+  button:hover{
+    background-color:#52b8ef;
+    transition: 0.7s;
+    text-align: center;
+  }
+
+  textarea{
+    border-radius: 4px;
+  }
   
+
+
 </style>
 <script>
 export default {

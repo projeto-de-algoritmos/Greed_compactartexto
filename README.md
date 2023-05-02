@@ -21,23 +21,27 @@ O projeto consiste na utilização de grafos para guardar a árvore genealógica
 
 ## Screenshots
 
+<img src="public/palg.png" alt="Imagem do site" />
 
 ## Instalação
 
-**Linguagem**: Javascript 
+**Linguagem**: Javascript
 **Framework**: VueJS
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
+## Requisitos
+
+**Node versão**: 16
+**NPM**: 8.15
+  
 ## Uso
 
 Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
 Passo a passo para rodar o projeto
 
-`npm i`
+```bash
+npm i
+npm run dev
+```
 
-`npm run dev`
-
-## Outros
-
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+ou usar acessar pelo [link](https://projeto-de-algoritmos.github.io/Grafos1_arvore_genealogica/)

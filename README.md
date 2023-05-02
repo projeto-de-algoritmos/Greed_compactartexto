@@ -44,4 +44,4 @@ npm i
 npm run dev
 ```
 
-ou usar acessar pelo [link](https://projeto-de-algoritmos.github.io/Grafos1_arvore_genealogica/)
+ou acessar pelo [link](https://projeto-de-algoritmos.github.io/Grafos1_arvore_genealogica/)

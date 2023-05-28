@@ -65,6 +65,9 @@
 
 </style>
 <script>
+import {Huffman} from "../utils/huffman";
+let huffman = new Huffman();
+
 export default {
   data() {
     return {
@@ -73,10 +76,14 @@ export default {
   },
   methods: {
     encode(){
-      alert("Encode");
+      this.texto = huffman.encode(this.texto);
     },
     decode(){
-      alert("Decode");
+      let dictionary = this.texto.split("-----EndDictionary-----").length;
+      if(dictionary > 1)
+        this.texto = huffman.decode(this.texto);
+      else
+        alert("Não foi encontrado um dicionário no texto");
     }
   },
   

@@ -35,6 +35,6 @@ body{
     }
 </style>
 <template>
-    <Header msg="Árvore Genealógica" />
+    <Header msg="Compactar Texto" />
     <Body />
 </template>

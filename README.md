@@ -48,4 +48,4 @@ ou acessar pelo [link](https://projeto-de-algoritmos.github.io/Greed_compactarte
 ## Vídeo
 
 [Github](https://github.com/projeto-de-algoritmos/Greed_compactartexto/tree/main/assets)
-[Video](https://youtu.be/7KhCg3rJKMM)
+[YouTube](https://youtu.be/7KhCg3rJKMM)
